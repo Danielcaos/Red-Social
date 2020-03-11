@@ -4,7 +4,10 @@
     width: 900px; 
     height: 740px; 
     margin: auto; 
-    background-color: #E5EAFC; 
+    background: -webkit-linear-gradient(left top, #F0F3F4  , #979A9A ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #F0F3F4 , #979A9A ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #F0F3F4 , #979A9A ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #F0F3F4  , #979A9A ); /* Standard syntax */
     box-shadow: 6px 6px 6px gray;
     -moz-box-shadow: 6px 6px 6px gray;
     -webkit-box-shadow: 6px 6px 6px gray;
