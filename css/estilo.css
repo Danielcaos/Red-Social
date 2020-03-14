@@ -4,6 +4,7 @@
     width: 900px; 
     height: 740px; 
     margin: auto; 
+    margin-top: 25px;
     background: -webkit-linear-gradient(left top, #F0F3F4  , #979A9A ); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #F0F3F4 , #979A9A ); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #F0F3F4 , #979A9A ); /* For Firefox 3.6 to 15 */
@@ -55,5 +56,6 @@ textarea {
 @media (max-width: 800px){
     #formato{
         width: 380px;
+        margin-top: 0px;
     }
 }
