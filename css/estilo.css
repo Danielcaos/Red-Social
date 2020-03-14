@@ -45,3 +45,15 @@ textarea {
     background: rgb(2, 187, 101);
     color: white;
 }
+
+@media (max-width: 800px){
+    #imagen{
+        display: none;
+        display: md-block;
+    }
+}
+@media (max-width: 800px){
+    #formato{
+        width: 450px;
+    }
+}
