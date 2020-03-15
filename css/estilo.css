@@ -5,10 +5,10 @@
     height: 740px; 
     margin: auto; 
     margin-top: 25px;
-    background: -webkit-linear-gradient(left top, #F0F3F4  , #979A9A ); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #F0F3F4 , #979A9A ); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #F0F3F4 , #979A9A ); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #F0F3F4  , #979A9A ); /* Standard syntax */
+    background: -webkit-linear-gradient(left top, #F0F3F4  , #979A9A );
+    background: -o-linear-gradient(bottom right, #F0F3F4 , #979A9A ); 
+    background: -moz-linear-gradient(bottom right, #F0F3F4 , #979A9A ); 
+    background: linear-gradient(to bottom right, #F0F3F4  , #979A9A ); 
     box-shadow: 6px 6px 6px gray;
     -moz-box-shadow: 6px 6px 6px gray;
     -webkit-box-shadow: 6px 6px 6px gray;
