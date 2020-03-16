@@ -53,15 +53,49 @@ textarea {
         display: md-block;
     }
 }
-@media (max-width: 800px){
+
+@media (max-width: 575px){
+    textarea{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1300px){
     #formato{
-        width: 350px;
         margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 900px){
+    #formato{
+        margin-top: 0px;
+        width: 750px;
+    }
+    #formulario{
+        width: 90%;
+    }
+    #img{
+        width: 90%;
     }
 }
 
 @media (max-width: 800px){
-    textarea{
+    #formato{
+        width: 550px;
+        margin-top: 0px;
+    }
+    #formulario{
+        width: 510px;
+    }
+}
+
+@media (max-width: 575px){
+    #formato{
+        width: 500px;
+        margin-top: 0px;
+    }
+    #formulario{
         width: 100%;
     }
 }
