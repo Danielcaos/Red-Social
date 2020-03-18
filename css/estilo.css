@@ -1,22 +1,30 @@
 #formato{
+    display: flex;
     border-radius: 10px; 
     border-style: solid; 
     width: 900px; 
     height: 740px; 
     margin: auto; 
     margin-top: 25px;
-    background: -webkit-linear-gradient(left top, #F0F3F4  , #979A9A );
-    background: -o-linear-gradient(bottom right, #F0F3F4 , #979A9A ); 
-    background: -moz-linear-gradient(bottom right, #F0F3F4 , #979A9A ); 
-    background: linear-gradient(to bottom right, #F0F3F4  , #979A9A ); 
+    background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C);
+    background-size: 400% 300%;
+    animation: bgGradiente 5s ease infinite;
     box-shadow: 6px 6px 6px gray;
     -moz-box-shadow: 6px 6px 6px gray;
     -webkit-box-shadow: 6px 6px 6px gray;
 }
+
+@keyframes bgGradiente{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
 #check {
     width:20px;
     height:20px;
 }
+
 textarea {
     overflow-y: scroll;
     resize: none;
@@ -76,6 +84,7 @@ textarea {
         width: 90%;
     }
     #img{
+        margin-top: 30px;
         width: 90%;
     }
 }
@@ -92,7 +101,7 @@ textarea {
 
 @media (max-width: 575px){
     #formato{
-        width: 400px;
+        width: 350px;
         margin-top: 0px;
     }
     #formulario{
