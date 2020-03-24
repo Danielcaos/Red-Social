@@ -91,6 +91,12 @@ textarea {
     #formulario{
         width: 510px;
     }
+    #registro{
+        margin-right: 25px;
+    }
+    #acc{
+        margin-right: 30px;
+    }
 }
 
 @media (max-width: 575px){
@@ -103,5 +109,42 @@ textarea {
     }
     textarea{
         width: 100%;
+    }
+}
+
+#inicio{
+    display: flex;
+    width: 1600px;
+    height: 793px;
+    background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C);
+    background-size: 400% 300%;
+    animation: bgGradiente 5s ease infinite;
+}
+
+#open{
+    text-align: center;  
+    margin-top: 20px;   
+    margin-left: 235px;
+}
+
+@media (max-width: 900px){
+    #open{  
+        margin-left: 175px;
+    }
+}
+
+@media (max-width: 800px){
+    #open{  
+        margin-left: 75px;
+    }
+}
+
+@media (max-width: 575px){
+    #open{  
+        margin-left: 1px;
+    }
+
+    #fenix{
+        width: 99%;
     }
 }
