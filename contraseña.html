@@ -22,13 +22,16 @@
 </head>
 
 <body>
-    <div id="formato" class="row" id="contenedor" style="margin-top: 25px;">
-        <div class="col-xs-12 col-sm-6" style="text-align: center;">
-            <h3 style="margin-top: 140px; color: #D35400;">CAMBIAR CONTRASEÑA</h3>
-            <img src="https://img.icons8.com/dusk/300/000000/key.png" style="margin-top: 40px;">
+    <div id="formato" class="row">
+        <div class="col-xs-6 col-sm-6" style="text-align: center;" id="imagen">
+            <div>
+                <h3 style="margin-top: 120px; color: #F39C12;">MI RED SOCIAL</h3>
+                <img id="img" src="https://img.icons8.com/color/400/000000/fenix.png">
+            </div>
         </div>
-        <div class="col-xs-12 col-sm-6" class="container">
-            <div class="container">
+        <div class="col-xs-6 col-sm-6" class="container">
+            <div class="container" id="formulario">
+                <br>
                 <br>
                 <br>
                 <div style="text-align: center; margin-top: 30px;">
@@ -36,31 +39,29 @@
                 </div>
                 <br>
                 <div style="text-align: right;">
-                    <label for="">Ya Tienes Cuenta <a href=""><u>ACCEDE</u></a></label>
+                    <label for="">Ya Tienes Cuenta <a href="" style="color: black;">ACCEDE</a></label>
                 </div>
-                <form action="">
+                <form class="contact_form" action="#" id="contact_form" runat="server">
                     <label for="">Usuario</label>
-                    <br>
-                    <input type="text" style="width: 100%;">
-                    <br>
+                    <input type="text" class="form-control" required>
                     <br>
                     <label for="">Email</label>
-                    <input type="email" style="width: 100%;">
-                    <br>
+                    <input type="email" class="form-control" required>
                     <br>
                     <label for="">Nueva Contraseña</label>
-                    <input type="password" style="width: 100%;">
+                    <input type="password" class="form-control" required>
+                    <br>
+                    <div>
+                        <input type="checkbox" id="check" required>
+                        <label for="">Acepto los terminos y condiciones del servicio</label>
+                        <br>
+                        <a href="#" style="color: black;">Ver terminos y condiciones</a>
+                    </div>
+                    <div style="text-align: right;">
+                        <button type="submit" class="btn btn-dark">Actualizar</button>
+                    </div>
                 </form>
-                <br>
-                <div>
-                    <input type="checkbox" id="check">
-                    <label for="">Acepto los terminos y condiciones del servicio</label>
-                    &nbsp;&nbsp;&nbsp;
-                    <a href="#"><u>Ver terminos y condiciones</u></a>
-                </div>
-                <div style="text-align: right;">
-                    <button type="button" class="btn btn-dark">Actualizar</button>
-                </div>
+                
             </div>
         </div>
     </div>
