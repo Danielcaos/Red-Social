@@ -24,7 +24,7 @@
 <body>
     <div id="formato" class="row">
         <div class="col-xs-6 col-sm-6" style="text-align: center;" id="imagen">
-            <div>
+            <div id="imagen-cambiante">
                 <h3 style="margin-top: 120px; color: #F39C12;">MI RED SOCIAL</h3>
                 <img id="img" src="https://img.icons8.com/color/400/000000/fenix.png">
             </div>
@@ -34,7 +34,7 @@
             <br>
             <div class="container" id="formulario">
                 <form class="contact_form" action="#" id="contact_form" runat="server">
-                    <div class="row">
+                    <div class="row" style="margin: auto;">
                         <div style="margin: auto;">
                             <label>¿No Tienes Cuenta?</label>
                             <br>
@@ -51,37 +51,37 @@
                     <div class="input-group-prepend">
                         <span class="text" id="">Usuario o Correo Electronico</span>
                     </div>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" required>
                     <br>
                     <br>
                     <div class="input-group-prepend">
                         <span class="text" id="">Contraseña</span>
                     </div>
-                    <input type="password" class="form-control">
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-8">
-                        <a href="#" style="color: black;">Olvido su contraseña?</a>
-                        <a href="#" style="color: black;">Olvido su nombre de usuario?</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <button type="button" class="btn btn-dark">Entrar</button>
-                    </div>
+                    <input type="password" class="form-control" required>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-8">
+                            <a href="#" style="color: black;">Olvido su contraseña?</a>
+                            <a href="#" style="color: black;">Olvido su nombre de usuario?</a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <button type="submit" class="btn btn-dark">Entrar</button>
+                        </div>
                 </form>
-                    <div class="abajo" style="text-align: center; width: 100%;">
-                        <button type="button" class="btn btn-primary" style="width: 100%;">CONECTAR CON
-                            FACEBOOK</button>
-                        <br>
-                        <br>
-                        <button type="button" class="btn btn-danger" style="width: 100%;">CONECTAR CON GOOGLE</button>
-                        <br>
-                        <br>
-                        <button type="button" class="btn btn-info" style="width: 100%;">CONECTAR CON TWITTER</button>
-                    </div>
+                <div class="abajo" style="text-align: center; width: 100%;">
+                    <button type="button" class="btn btn-primary" style="width: 100%;">CONECTAR CON
+                        FACEBOOK</button>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-danger" style="width: 100%;">CONECTAR CON GOOGLE</button>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-info" style="width: 100%;">CONECTAR CON TWITTER</button>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 </body>
