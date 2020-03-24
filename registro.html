@@ -22,50 +22,48 @@
 </head>
 
 <body>
-    <div id="formato" class="row" id="contenedor" style="margin-top: 25px;">
-        <div class="col-xs-12 col-sm-6" style="text-align: center;">
-            <h3 style="margin-top: 120px; color: #D35400;">MI RED SOCIAL</h3>
-            <img src="https://img.icons8.com/color/400/000000/fenix.png">
-        </div>
-        <div class="col-xs-12 col-sm-6" class="container">
-            <div class="container">
-                <br>
-                <br>
-                <div style="text-align: center;">
-                    <h4>REGISTRO DE NUEVO USUARIO</h4>
-                </div>
-                <br>
-                <div style="text-align: right;">
-                    <label for="">Ya Tienes Cuenta <a href=""><u>ACCEDE</u></a></label>
-                </div>
-                <form action="">
-                    <label for="">Usuario</label>
-                    <br>
-                    <input type="text" style="width: 100%;">
-                    <br>
-                    <br>
-                    <label for="">Nombre</label>
-                    <input type="text" style="width: 100%;">
-                    <br>
-                    <br>
-                    <label for="">Email</label>
-                    <input type="text" style="width: 100%;">
-                    <br>
-                    <br>
-                    <label for="">Contraseña</label>
-                    <input type="password" style="width: 100%;">
-                </form>
-                <br>
-                <div>
-                    <input type="checkbox" id="check">
-                    <label for="">Acepto los terminos y condiciones del servicio</label>
-                    &nbsp;&nbsp;&nbsp;
-                    <a href="#"><u>Ver terminos y condiciones</u></a>
-                </div>
-                <div style="text-align: right;">
-                    <button type="button" class="btn btn-dark">Registrarse</button>
-                </div>
+    <div id="formato" class="row">
+        <div class="col-xs-6 col-sm-6" style="text-align: center;" id="imagen">
+            <div>
+                <h3 style="margin-top: 120px; color: #F39C12;">MI RED SOCIAL</h3>
+                <img id="img" src="https://img.icons8.com/color/400/000000/fenix.png">
             </div>
+        </div>
+        <div class="col-xs-6 col-sm-6" class="container">
+            <br>
+            <br>
+                <div id="formulario" class="container">
+                    <div style="text-align: center;">
+                        <h4>REGISTRO DE NUEVO USUARIO</h4>
+                    </div>
+                    <br>
+                    <div style="text-align: right;">
+                        <label for="" id="acc">Ya Tienes Cuenta <a href="#" style="color: black;">ACCEDE</a></label>
+                    </div>
+                    <form class="contact_form" action="#" id="contact_form" runat="server">
+                        <label for="">Usuario</label>
+                        <input type="text" class="form-control" required>
+                        <br>
+                        <label for="">Nombre</label>
+                        <input type="text" class="form-control" required>
+                        <br>
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" required>
+                        <br>
+                        <label for="">Contraseña</label>
+                        <input type="password" class="form-control" required>
+                        <br>
+                        <div>
+                            <input type="checkbox" id="check" required>
+                            <label for="">Acepto los terminos y condiciones del servicio</label>
+                            <br>
+                            <a href="#" style="color: black;">Ver terminos y condiciones</a>
+                        </div>
+                        <div style="text-align: right;">
+                            <button id="registro" type="submit" class="btn btn-dark">Registrarse</button>
+                        </div>
+                    </form>
+                </div>
         </div>
     </div>
 </body>
