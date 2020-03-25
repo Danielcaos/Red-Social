@@ -20,6 +20,38 @@
     100%{background-position: 0% 50%;}
 }
 
+.navbar{
+    background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C);
+    background-size: 400% 300%;
+    animation: bgGradiente 5s ease infinite;
+    font-family: 'Pacifico', cursive;
+}
+
+.image-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+    
+}
+
+.padding-info{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/* .card-img-top{
+    width:100%;
+    height:auto;
+} */
+
+
+.objetfit > img{
+	width: 100%;
+	height: 369px;
+	object-fit: none;
+}
+
 #check {
     width:20px;
     height:20px;
