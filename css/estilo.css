@@ -21,18 +21,28 @@
 }
 
 .navbar{
-    background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C);
+    /* background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C); */
+    background: #082a5d;
     background-size: 400% 300%;
-    animation: bgGradiente 5s ease infinite;
+    /* animation: bgGradiente 5s ease infinite; */
     font-family: 'Pacifico', cursive;
+
+ 
+    
 }
+
 
 .image-perfil{
     width: 150px;
     height: 150px;
+    border-style: inset;
     border-radius: 50%;
     
     
+}
+
+.card-footer{
+    background-color: #082a5d;
 }
 
 .padding-info{
@@ -45,6 +55,10 @@
     height:auto;
 } */
 
+.icon-action{
+    width: 32px;
+	height: 32px;
+}
 
 .objetfit > img{
 	width: 100%;
@@ -64,6 +78,10 @@ textarea {
 
 .container .row a{
      display: block;
+}
+
+.card-group{
+    padding-top: 15px;
 }
 
 #pass, #usuario{
