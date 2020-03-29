@@ -205,9 +205,91 @@ textarea {
     animation: bgGradiente 5s ease infinite;
 }
 
+#fantasma{
+    margin-left: 510px;
+}
+
 @media (max-width: 1300px){
     #fantasma{
-        margin-left: 450px;
+        margin-left: 350px;
     }
 
+}
+
+@media (max-width: 1250px){
+    #fantasma{
+        margin-left: 300px;
+    }
+
+}
+
+@media (max-width: 1100px){
+    #fantasma{
+        margin-left: 250px;
+    }
+
+}
+
+@media (max-width: 1000px){
+    #fantasma{
+        margin-left: 240px;
+    }
+
+}
+
+@media (max-width: 900px){
+    #fantasma{
+        margin-left: 180px;
+    }
+
+}
+
+@media (max-width: 700px){
+    #fantasma{
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width: 600px){
+    #fantasma{
+        margin-left: 25px;
+    }
+
+}
+
+@media (max-width: 500px){
+    #fantasma{
+        margin-left: 60px;
+    }
+    #ima{
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px){
+    #fantasma{
+        margin-left: 20px;
+    }
+    #ima{
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px){
+    #fantasma{
+        margin-left: -2px;
+    }
+    #ima{
+        width: 400px;
+    }
+}
+
+@media (max-width: 350px){
+    #fantasma{
+        margin-left: -10px;
+    }
+    #ima{
+        width: 350px;
+    }
 }
