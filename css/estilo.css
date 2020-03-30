@@ -45,6 +45,13 @@
     border-radius: 50%;
 }
 
+footer{
+    bottom: 0;
+    height: 100px; /* valor que necesites */
+    position: absolute;
+    width: 100%
+}
+
 
 .card-footer{
     background-color: #082a5d;
